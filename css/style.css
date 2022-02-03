@@ -1,0 +1,234 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap'); 
+/* font-family: 'Comforter', cursive; */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900);
+
+
+@font-face {
+	font-family: "Parry Hotter Regular";
+	src: url(../fonts/ParryHotter.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Wremena";
+	src: url(../fonts/Wremena.woff) format("wofff"); src: url(../fonts/Wremena.woff2) format("wofff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Wremena-Bold";
+	src: url(../fonts/Wremena-Bold.woff) format("woff"); src: url(../fonts/Wremena-Bold.woff2) format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Wremena-Light";
+	src: url(../fonts/Wremena-Light.woff) format("woff"); src: url(../fonts/Wremena-Light.woff2) format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+*{
+	font-size: 30px;
+	font-family:"Wremena-Light", serif;
+	font-weight: 300;
+}
+
+
+.list-menu{
+	font-family: "Wremena-Bold", serif;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: 700;
+    color: rgb(128, 58, 0);
+    text-align:center;
+    text-shadow: 5px 5px 5px rgb(32, 32, 31);
+
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-style:normal;
+    font-weight: 700;
+    color: green;
+    text-align:center;
+    text-shadow: 5px 5px 5px yellow;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-style:normal;
+    font-weight: 400;
+    color: green;
+    text-align:center;
+    text-shadow: 5px 5px 5px yellow;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-style:normal;
+    font-weight: 200;
+    color: green;
+    text-align:left;
+	 text-shadow: 5px 5px 5px rgb(56, 56, 50);
+    
+}
+
+.section-introduction {
+	font-family: "Wremena", serif;
+	color: rgb(25, 42, 197);
+	text-indent: 40px;
+	text-align:justify;
+}
+
+.section-come-to-tallinn span{
+	font-family:"Parry Hotter Regular";
+	color: indigo;
+}
+
+
+.section-where-to-stay{
+	text-transform: uppercase;
+	font-family:'Comforter', cursive;
+}
+
+.section-where-to-stay span{
+	color: indianred;
+	text-shadow: 5px 5px 5px rgb(86, 18, 155);
+}
+
+#subtitle-visa+p{
+	font-family: "Parry Hotter Regular";
+	color: rgb(252, 0, 168);
+	text-shadow: 5px 5px 5px lightseagreen;
+	letter-spacing: 10px;
+}
+
+#subtitle-visa+p a{
+	font-family: "Parry Hotter Regular";
+	color: gold;
+}
+
+#subtitle1-rent-car+p{
+	text-transform: capitalize;
+	font-family: "Wremena-Bold", serif ;
+	line-height: 2;
+}
+
+.section-bus p{
+	text-transform: lowercase;
+	font-family: "Comforter", cursive;
+}
+
+.section-bus span{
+	color: red;
+	text-decoration: underline;
+}
+
+.section-tallinn-card p{
+	color: rgb(18, 173, 184);
+	font-family: "Parry Hotter Regular";
+	text-transform: uppercase;
+	word-spacing: 10px;
+	letter-spacing: 10px;
+	line-height: 2;
+}
+
+ul.excursions, .guide{
+	color: indigo;
+	text-indent: 50px;
+	font-style: italic;
+	text-shadow: 5px 5px 10px rgb(221, 201, 18);
+
+}
+
+p.excursions {
+	line-height: 2;
+	text-transform: uppercase;
+	color: rgb(146, 71, 21);
+	text-shadow: 5px 5px 5px slateblue;
+}
+
+.section-shopping span{
+	color: tomato;
+	text-decoration: line-through;
+	white-space: nowrap;
+}
+
+.section-food{
+	font-style: oblique;
+	text-decoration: overline;
+}
+
+.section-food span{
+	font-family: "Parry Hotter Regular";
+	color: yellowgreen;
+}
+
+.important>li{
+	color: violet;
+	font-family: "Comforter", cursive;
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+
+.holidays{
+	font-family: "Comforter", cursive;
+	color: rgb(218, 80, 17);
+}
+
+.holidays span{
+	font-family: "Comforter", cursive;
+	color: rgb(224, 181, 64);
+}
+
+.section-holidays{
+	text-align: right;
+}
+
+.section-holidays h3{
+	text-align: right;
+}
+
+.section-info{
+	text-align: center;
+	color: rgb(16, 80, 44);
+	font-weight: 700;
+}
+
+.section-info a{
+	color: rgb(255, 71, 172);
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.footer{
+	text-align: center;
+	color: tomato;
+	}
+
+.footer p{
+	color: rgb(21, 52, 136);
+	text-transform: uppercase;
+	text-shadow: 5px 5px 5px yellow;
+	font-weight: 700;
+}
+
+.footer .list{
+	text-decoration: underline;
+	text-transform: capitalize;
+}
